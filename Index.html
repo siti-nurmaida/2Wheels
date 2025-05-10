@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>2 WHEELS</title>
-</head>
-<body>
-	<div class="wheels">
-			<style type="text/css">
+	<style>
 				.wheels {
 					display: flex;
 					flex-direction: row;
@@ -24,7 +21,7 @@
 					border-radius: 50%;
 					margin: 4rem 0;
 					position: relative;
-					animation: wheel 10s infinite linear;
+					animation: wheel 1s infinite linear;
 				}
 				@keyframes wheel {
 					0% {
@@ -35,14 +32,12 @@
 					}
 				}
 			</style>
-		<div class="wheel">
-			<span class="line"></span>
-				<style type="text/css">
+			<style>
 					.line {
 						width: 50%;
 						height: 5px;
 						background: limegreen;
-						border-radius: 50;
+						border-radius: 50%;
 						position: absolute;
 						top: 50%;
 						transform-origin: 100% 0;
@@ -73,6 +68,14 @@
 						background-color: mediumvioletred;
 					}
 				</style>
+</head>
+
+<body>
+
+	<div class="wheels">
+		<div class="wheel">
+			<span class="line"></span>
+				
 			<span class="line"></span>
 			<span class="line"></span>
 			<span class="line"></span>
